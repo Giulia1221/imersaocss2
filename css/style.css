@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/originals/92/98/b8/9298b8aa90e9bc71a6162878ee24cbeb.gif");
+  background-size: auto 120vh;
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px;
+}
+.menu li {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', cursive;
+}
+.menu a{
+  display: block;
+  padding: 1em;
+  color: lightblue;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: snow;
+}
+
+.site-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+}
+.site-subtitle,
+.site-title {
+  text-align: center;
+  color: rgb(122, 43, 226);
+}
+.site-subtitle {
+  font-style: italic;
+}
+
+
+.portifolio{
+  background-image: url("https://i.pinimg.com/564x/19/05/b2/1905b2c79c21560a236f5242892c0f6d.jpg");
+  background-size:auto 100vh;
+  height: 100vh;
+  background-position-x: center;
+}
+
+
+@media (min-width:1200px) {
+
+}
+@media (min-width:700px) {
+  body{
+    font-size: 5mm;
+  }
+}
+
+.fa-code
+.fa-paint-brush{
+  font-size: 0.5;
+}
+
+.fa-chevron-down{
+  font-size: 2em;
+  
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.icon a{
+  color: aqua;
+}
